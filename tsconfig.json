@@ -4,10 +4,11 @@
       "noEmitOnError": true,
       "removeComments": false,
       "sourceMap": false,
-      "target": "es5",
-      "outDir": "jsfiles"
+      "target": "es5",  //ES5문법으로 컴파일
+      "outDir": "ex/ex9/jsfiles"
+
     },
     "include": [
-      "tsfiles/**/*"
+      "ex/ex9/tsfiles/**/*"
     ]
   }
