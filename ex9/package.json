@@ -1,0 +1,20 @@
+{
+  "name": "ex9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "compileDeploy": "tsc && npm run deploy",
+    "deploy": "copyfiles -f src/browser/*.html.src/browse*./css dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "copyfiles": "^2.4.1",
+    "serve": "^13.0.2",
+    "typescript": "^4.5.4"
+  }
+}
