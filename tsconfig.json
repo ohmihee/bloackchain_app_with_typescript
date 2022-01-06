@@ -6,7 +6,6 @@
       "sourceMap": false,
       "target": "es5",  //ES5문법으로 컴파일
       "outDir": "ex/ex9/jsfiles"
-
     },
     "include": [
       "ex/ex9/tsfiles/**/*"
